@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 
 @RestController
-@RequestMapping("/service-2")
+@RequestMapping("/service2")
 public class Service2Controller {
 	
 	@GetMapping("/info")
