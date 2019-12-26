@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
+@RequestMapping("/service-2")
 public class Service2Controller {
 	
 	@GetMapping("/info")
